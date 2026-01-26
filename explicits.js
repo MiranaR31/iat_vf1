@@ -9,7 +9,7 @@ define(['questAPI'], function(Quest){
         noSubmit:false, //Change to true if you don't want to show the submit button.
         header: 'Questionnaire',
         decline: true,
-        declineText: isTouch ? 'Decline' : 'Decline to Answer', 
+        declineText: isTouch ? 'Refuser' : 'Refuser de répondre', 
         autoFocus:true, 
         progressBar:  'Page <%= pagesMeta.number %> out of 3'
     });
@@ -22,13 +22,13 @@ define(['questAPI'], function(Quest){
         required : true, 		
         errorMsg: {
             required: isTouch 
-                ? 'Please select an answer, or click \'Decline\'' 
-                : 'Please select an answer, or click \'Decline to Answer\''
+                ? 'Veuillez sélectionner une réponse ou cliquer sur \'Refuser\'' 
+                : 'Veuillez sélectionner une réponse ou cliquer sur \'Refuser de répondre\''
         },
-        autoSubmit:'true',
+        autoSubmit:'false',
         numericValues:'true',
         help: '<%= pagesMeta.number < 3 %>',
-        helpText: 'Tip: For quick response, click to select your answer, and then click again to submit.'
+        helpText: 'Astuce : Pour répondre rapidement, cliquez pour sélectionner votre réponse, puis cliquez à nouveau pour soumettre.'
     });
 
     API.addQuestionsSet('basicSelect',{
