@@ -63,7 +63,6 @@ define(['questAPI'], function(Quest){
 		inherit : 'basicSelect',
 		name : 'diff_culture',
 		stem : 'Il est mieux pour une classe qu\'il y ait une diversité de coutumes, de cultures et d\'origines ?',
-		
 	});
 
 	API.addQuestionsSet('explicit2',{
