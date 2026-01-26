@@ -13,19 +13,7 @@ define(['managerAPI',
 
     API.setName('mgr');
     API.addSettings('skip',true);
-	API.addGlobal({
-		raceiat:{},
-		ImmigrantLabels:Immigres,
-		Native:Natifs,
-		posWords : API.shuffle([
-			'Respectueux','Capable','Préparé','Volontaire',
-			'Intelligent','Compétent','Studieux','Précis'
-			]),
-		negWords : API.shuffle([
-			'Irrespectueux','Incapable','Paresseux','Involontaire',
-			'Lent','Bruyant','Dissipé','Démotivé'
-			]),
-	});
+	
 
     API.addTasksSet({
         instructions: [{
