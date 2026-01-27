@@ -1,48 +1,48 @@
 <%
-    var respInst = "you will use the 'E' and 'I' computer keys to";
-    if (global.$isTouch)  respInst = "you will";
+    var respInst = "utiliser les touches "E" et "I" de votre ordinateur pour";
+    if (global.$isTouch)  respInst = "vous allez";
 %>
 
 <div class="panel panel-info" style="margin-top:1em">
 		<div class="panel-heading">
 			<h1 class="panel-title" style="font-size:2em">
-				IAT Instructions
+				Test d'Association Implicite
 			</h1>
 		</div>
 </div>
 
 <div class="panel-body">
-	<p class="lead">Next, <%=respInst%> categorize items into groups as fast as you can. 
-	These are the four groups and the items that belong to each:</p>
+	<p class="lead">Maintenant, <%=respInst%> catégoriser les éléments en groupes aussi rapidement que possible. 
+	Voici les quatre groupes et les éléments qui appartiennent à chaque groupe :</p>
 
 	<table class="table table-bordered">
 		<tr class="active">
-			<th>Category</th>
-			<th>Items</th>
+			<th>Catégorie</th>
+			<th>Eléments</th>
 		</tr>
 		<tr>
-			<th>Good</th>
-			<td>Prepared, Intelligent, Capable, Studious, Able, Precise, Willing, Respectful</td>
+			<th>Bon</th>
+			<td>Respectuex, Capable, Préparé, Volontaire, Intelligent, Compétent, Studieux, Précis</td>
 		</tr>
 		<tr>
-			<th>Bad</th>
-			<td>Disrespectful, Slow, Incapable, Boisterous, Lazy, Distracted, Demotivated, Insufficient</td>
+			<th>Mauvais</th>
+			<td>Irrespectueux, Incapable, Paresseux, Involontaire, Lent, Bruyant, Distrait, Démotivé</td>
 		</tr>
 		<tr>
-			<th>Immigrant</th>
+			<th>Immigrants</th>
 	<td>Youssef, Mohamed, Gheorge, Alejandro, Li Yi, Pascual</td>
 		</tr>
 		<tr>
-			<th>Native</th>
+			<th>Natifs</th>
 			<td>Marco, Simone, Daniele, Francesco, Lorenzo, Mattia</td>
 		</tr>
 	</table>
 
-	<p class="lead">There are seven parts.  The instructions change for each part.  Pay attention!<p>
+	<p class="lead">Il y a sept parties. Faites attention, les instructions changent pour chaque partie ! <p>
 
 	<div class="text-center proceed" style="margin: 30px auto 10px;">
 		<button pi-message-done type="button" class="btn btn-primary">
-			Start
+			Commencer
 		</button>
 	</div>
 </div>
