@@ -107,10 +107,7 @@ define(['questAPI'], function(Quest){
 			inherit:'basicPage', 
     		questions: {inherit:'explicit1'},
 			questions: {inherit:'explicit2'},
-			questions: {inherit:'explicit3'}
-		},
-		{
-            inherit:'basicPage', 
+			questions: {inherit:'explicit3'},
             questions: {inherit:'prof1'},
 			questions: {inherit:'prof2'},
 			questions: {inherit:'prof3'},
