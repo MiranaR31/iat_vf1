@@ -107,25 +107,20 @@ define(['questAPI'], function(Quest){
             mixer : 'random', 
             data : [
                 {
-                    mixer : 'random', 
-                    wrapper:true, 
-                    data : [
-                        {
-                            inherit:'basicPage', 
-                            questions: {inherit:'thermBlack'}
+					inherit:'basicPage', 
+    				questions: {inherit:'explicit1'},
+					questions: {inherit:'explicit2'},
+					questions: {inherit:'explicit3'}
                         },
-                        {
-                            inherit:'basicPage', 
-                            questions: {inherit:'thermWhite'}							
-                        }
-                    ]
-                },
                 {
                     inherit:'basicPage', 
-                    questions: {inherit:'attributes7'}
-                }
-            ]
-        }
+                    questions: {inherit:'prof1'},
+					questions: {inherit:'prof2'},
+					questions: {inherit:'prof3'},
+					questions: {inherit:'prof4'}
+                    }
+                    ]
+                },
     ]);
 
     return API.script;
