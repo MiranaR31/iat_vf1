@@ -104,23 +104,18 @@ define(['questAPI'], function(Quest){
 
     API.addSequence([
         {
-            mixer : 'random', 
-            data : [
-                {
-					inherit:'basicPage', 
-    				questions: {inherit:'explicit1'},
-					questions: {inherit:'explicit2'},
-					questions: {inherit:'explicit3'}
-                        },
-                {
-                    inherit:'basicPage', 
-                    questions: {inherit:'prof1'},
-					questions: {inherit:'prof2'},
-					questions: {inherit:'prof3'},
-					questions: {inherit:'prof4'}
-                    }
-                    ]
-                },
+			inherit:'basicPage', 
+    		questions: {inherit:'explicit1'},
+			questions: {inherit:'explicit2'},
+			questions: {inherit:'explicit3'}
+		},
+		{
+            inherit:'basicPage', 
+            questions: {inherit:'prof1'},
+			questions: {inherit:'prof2'},
+			questions: {inherit:'prof3'},
+			questions: {inherit:'prof4'}
+        }
     ]);
 
     return API.script;
