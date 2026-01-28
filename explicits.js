@@ -301,7 +301,7 @@ define(['questAPI'], function(Quest){
 	API.addQuestionsSet('prof5',{
 		inherit : 'basicDropdown',
 		name : 'prof_annees', 
-		stem : 'Depuis combien d'années enseignez-vous cette matière ?', 
+		stem : 'Depuis combien d\'années enseignez-vous cette matière ?', 
 		answers : [
 			{text : '0', value:0},
 			{text: '1', value:1},
