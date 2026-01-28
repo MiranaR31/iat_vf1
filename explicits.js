@@ -67,12 +67,10 @@ define(['questAPI'], function(Quest){
 	API.addQuestionsSet('genre',{
 		inherit : 'basicSelect',
 		name : 'genre',
-		stem : 'Quelle est votre identité de genre actuelle ?',
+		stem : 'Quel est votre sexe à l'état\-/civil ?',
 		answers : [
 			{text : 'Homme'},
-			{text : 'Femme'},
-			{text : 'Autre'},
-			{text : 'Ne souhaite pas répondre'}
+			{text : 'Femme'}
 				]
 	});
 
