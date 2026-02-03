@@ -37,6 +37,12 @@ define(['managerAPI',
             header: 'Implicit Association Test'
         }],
 
+		demographics: [{
+            type: 'quest',
+            name: 'demographics',
+            scriptUrl: 'demographics.js'
+        }],
+
         explicits: [{
             type: 'quest',
             name: 'explicits',
